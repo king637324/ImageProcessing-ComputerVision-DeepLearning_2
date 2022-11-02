@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>967</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_Q1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>211</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>1. Find Contour</string>
+    </property>
+    <widget class="QPushButton" name="ButtonQ1_1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1.1 Draw Contour</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ButtonQ1_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>110</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1.2 Count Coins</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Q1_1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>180</y>
+       <width>171</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>There are _ rings in img1.jpg</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Q1_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>220</y>
+       <width>171</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>There are _ rings in img2.jpg</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_Q2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>20</y>
+      <width>251</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>2. Calibration</string>
+    </property>
+    <widget class="QPushButton" name="ButtonQ2_1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2.1 Find Corner</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ButtonQ2_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>80</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2.2 Find Intrinsic</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_Q2_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>140</y>
+       <width>221</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>2.3 Find Extrinsic</string>
+     </property>
+     <widget class="QPushButton" name="ButtonQ2_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>90</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>2.3 Find Find Extrinsic</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Q2_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Select image:</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_Q2_3">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>50</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="currentText">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="ButtonQ2_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>300</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2.4 Find Distortion</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ButtonQ2_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>360</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2.5 Show result</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_Q4">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>20</y>
+      <width>211</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>4. Stereo Disparity Map</string>
+    </property>
+    <widget class="QPushButton" name="ButtonQ4_1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>4.1 Stereo Disparity Map</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_Q3">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>20</y>
+      <width>221</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>3. Augmented Reality</string>
+    </property>
+    <widget class="QPushButton" name="ButtonQ3_1">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>90</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3.1 Show words on board</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ButtonQ3_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>150</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3.2 Show words vertically</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_Q3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>OPENCV</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>967</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
